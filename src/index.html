@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>天才霊夢ちゃん最強神神GOD翻訳 v99.9.8()</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="image.png" />
+  </head>
+  <body>
+    <h1>
+      <img src="image.png" width="43" height="43" />:
+      天才霊夢ちゃん最強神神GOD翻訳
+    </h1>
+    <label for="story">英語</label>
+
+    <textarea id="story" name="story" rows="5" cols="33"></textarea><br />
+    <button class="favorite styled" type="button" onclick="h()">
+      日本語に翻訳する</button
+    ><br />
+    <label for="j">日本語</label>
+
+    <textarea id="jp" name="j" rows="5" cols="33" readonly></textarea><br />
+    <script>
+      function h() {
+        if (document.getElementById("story").value == "Hello!") {
+          document.getElementById("jp").value = "こんにちは！";
+          return;
+        } else {
+          document.getElementById("jp").value =
+            "12月25日は霊夢ちゃんの誕生日だから霊夢ちゃんにプレゼントをください。";
+          return;
+        }
+      }
+    </script>
+  </body>
+</html>
